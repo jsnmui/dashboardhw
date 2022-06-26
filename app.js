@@ -93,11 +93,7 @@ const styles = {
       display: "grid",
       gap: "20px"
      },
-    navStyle:{
-        display: 'flex',
-        justifyContent: 'space-around',
-        border:'solid red 2px'
-    },
+   
     sideStyle:{
        gridArea: `side`,
        display:"flex",
@@ -142,7 +138,7 @@ const styles = {
            <Reviews /> 
            <AverageRating /> 
            <SentimentAnalysis />      
-           <WebsiteVisitors/>
+           <WebsiteVisitors />
         </div>
         </div>
       );
