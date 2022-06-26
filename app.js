@@ -37,13 +37,13 @@ const Reviews = () => {
   return(
     <div style={Object.assign({},styles.divStyle,styles.reviewStyle)}>
       <h4>Reviews</h4>
-      <h2>1281</h2>  
+      <h2>1,281</h2>  
     </div> 
   )
 
 }
 
-const Rating = () => {
+const AverageRating = () => {
   return(
     <div style={Object.assign({},styles.divStyle,styles.ratingStyle)}>
       <h4>Average Rating</h4>
@@ -53,10 +53,10 @@ const Rating = () => {
 
 }
 
-const Sentiment = () => {
+const SentimentAnalysis = () => {
   return(
     <div style={Object.assign({},styles.divStyle,styles.sentimentStyle)}>
-      <h4>Sentiment</h4>
+      <h4>Sentiment Analysis</h4>
       <ul style={styles.listStyle}>
               <li>960</li>
               <li>122</li>
@@ -67,7 +67,7 @@ const Sentiment = () => {
 
 }
 
-const Visitor = () => {
+const WebsiteVisitors = () => {
   return(
     <div style={Object.assign({},styles.divStyle,styles.visitorStyle)}>
       <h4>Website Visitors</h4>
@@ -140,9 +140,9 @@ const styles = {
         <div style = {gridStyle}>
            <Sidebar />
            <Reviews /> 
-           <Rating /> 
-           <Sentiment />      
-           <Visitor/>
+           <AverageRating /> 
+           <SentimentAnalysis />      
+           <WebsiteVisitors/>
         </div>
         </div>
       );
